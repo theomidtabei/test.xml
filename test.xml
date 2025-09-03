@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
   <!ELEMENT foo ANY>
-  <!ENTITY test "ENTITY_WORKS">
+  <!ENTITY file SYSTEM "file:///etc/passwd">
 ]>
-<foo>&test;</foo>
+<foo>&file;</foo>
