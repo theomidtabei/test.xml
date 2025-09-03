@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
   <!ELEMENT foo ANY>
-  <!ENTITY ext SYSTEM "http://root.requestcatcher.com/">
+  <!ENTITY test "ENTITY_WORKS">
 ]>
-<foo>&ext;</foo>
+<foo>&test;</foo>
